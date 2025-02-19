@@ -2,7 +2,7 @@
 
 export const Data = [
     {
-        week: '1',
+        week: '1: Bucs',
         title: "Big run",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '184',
@@ -12,7 +12,7 @@ export const Data = [
         rush_tds: '2'
     },
     {
-        week: '2',
+        week: '2: Giants',
         title: "Big run",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '226',
@@ -22,7 +22,7 @@ export const Data = [
         rush_tds: '0'
     },
     {
-        week: '3',
+        week: '3: Bengals',
         title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '254',
@@ -32,7 +32,7 @@ export const Data = [
         rush_tds: '1'
     },
     {
-        week: '4',
+        week: '4: Cardinals',
         title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '233',
@@ -42,7 +42,7 @@ export const Data = [
         rush_tds: '1'
     },
     {
-        week: '5',
+        week: '5: Browns',
         title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '238',
@@ -52,7 +52,7 @@ export const Data = [
         rush_tds: '0'
     },
     {
-        week: '6',
+        week: '6: Ravens',
         title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '269',
@@ -62,7 +62,7 @@ export const Data = [
         rush_tds: '0'
     },
     {
-        week: '7',
+        week: '7: Panthers',
         title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '6',
@@ -72,7 +72,7 @@ export const Data = [
         rush_tds: '0'
     },
     {
-        week: '8',
+        week: '8: Bears',
         title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '326',
@@ -82,7 +82,7 @@ export const Data = [
         rush_tds: '0'
     },
     {
-        week: '9',
+        week: '9: Giants',
         title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '209',
@@ -92,7 +92,7 @@ export const Data = [
         rush_tds: '0'
     },
     {
-        week: '10',
+        week: '10: Steelers',
         title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '202',
@@ -102,7 +102,7 @@ export const Data = [
         rush_tds: '0'
     },
     {
-        week: '11',
+        week: '11: Eagles',
         title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '191',
@@ -112,7 +112,7 @@ export const Data = [
         rush_tds: '0'
     },
     {
-        week: '12',
+        week: '12: Cowboys',
         title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '275',
@@ -122,7 +122,7 @@ export const Data = [
         rush_tds: '1'
     },
     {
-        week: '13',
+        week: '13: Titans',
         title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '206',
@@ -132,7 +132,7 @@ export const Data = [
         rush_tds: '1'
     },
     {
-        week: '15',
+        week: '15: Saints',
         title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '226',
@@ -142,7 +142,7 @@ export const Data = [
         rush_tds: '0'
     },
     {
-        week: '16',
+        week: '16: Eagles',
         title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '258',
@@ -152,7 +152,7 @@ export const Data = [
         rush_tds: '0'
     },
     {
-        week: '17',
+        week: '17: Falcons',
         title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '227',
@@ -162,7 +162,7 @@ export const Data = [
         rush_tds: '0'
     },
     {
-        week: '18',
+        week: '18: Cowboys',
         title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '38',
@@ -172,7 +172,7 @@ export const Data = [
         rush_tds: '0'
     },
     {
-        week: "Wildcard",
+        week: "Wildcard: Bucs",
         title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '268',
@@ -182,7 +182,7 @@ export const Data = [
         rush_tds: '0'
     },
     {
-        week: "Divisonal",
+        week: "Divisonal: Lions",
         title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '299',
@@ -192,7 +192,7 @@ export const Data = [
         rush_tds: '0'
     },
     {
-        week: "NFC Championship",
+        week: "NFC Championship: Eagles",
         title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '255',

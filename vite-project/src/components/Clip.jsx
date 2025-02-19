@@ -1,4 +1,4 @@
-export default function Clip({ title, link}) {
+export default function Clip({ title, link }) {
     return (
         <div>
             <h4>{title}</h4>
