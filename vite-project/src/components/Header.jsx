@@ -4,7 +4,7 @@ export default function Header() {
             <h3>Jayden Daniels Rookie Season Recap</h3>
             <br></br>
             <hr></hr>
-            <p>Select a week for stats and highlights</p>
+            <p>*The greatest rookie season of all time*</p>
             <hr></hr>
         </section>
     );

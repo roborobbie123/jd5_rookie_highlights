@@ -7,14 +7,22 @@ import Dropdown from './components/Dropdown.jsx'
 import Header from './components/Header.jsx'
 
 function App() {
+  const [week, setWeek] = useState(Data[0]);
+
+  function handleChange(weekSelector) {
+    for(let i = 0; i < Data.length; i++) {
+      if (Data[i].week === weekSelector) {
+        setWeek(Data[i]);
+      }
+    }
+  }
 
   return (
     <>
-      <div className='container-fluid'>
-        <Header />
-        <Stats />
-      </div>
-
+      <Header />
+      <Dropdown onChange={handleChange}/>
+      <Stats week={week}/>
+      <Clip week={week}/>
     </>
 
   )

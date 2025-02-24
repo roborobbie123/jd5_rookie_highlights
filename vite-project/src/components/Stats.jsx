@@ -1,33 +1,11 @@
 import { Data } from '../data.js'
-import { useState } from 'react';
-import Dropdown from './Dropdown';
 import Clip from './Clip.jsx';
 
-export default function Stats() {
-    const [selectedWeek, setSelectedWeek] = useState('');
-
-
-
-    function theWeek(selectedWeek) {
-        for (let i = 0; i < Data.length; i++) {
-            if (Data[i].week === selectedWeek) {
-                return Data[i];
-            }
-        }
-        return null;
-    }
-
-    let week = theWeek(selectedWeek);
-    if (!week) {
-        week = Data[0].week;
-    }
-
+export default function Stats({ week }) {
 
     return (
-        <section id="stats">
-            <Dropdown onChange={setSelectedWeek} />
-            
-                <table className='table table-dark table-striped table-hover'>
+        <section id="stats" className="my-5">
+                <table className="w-full table-auto text-center">
                     <thead>
                         <tr>
                             <th>Pass Yds</th>
@@ -48,7 +26,6 @@ export default function Stats() {
                         </tr>
                     </tbody>
                 </table>
-                <Clip title={week.title} link={week.link}/> 
         </section>
     );
 
