@@ -1,10 +1,10 @@
 export default function Header() {
     return (
-        <section id="header">
+        <section id="header" className="relative text-sm sm:text-base">
             <h3>Jayden Daniels Rookie Season Recap</h3>
             <br></br>
             <hr></hr>
-            <p>*The greatest rookie season of all time*</p>
+            <p>Washington Commanders #5 - QB</p>
             <hr></hr>
         </section>
     );

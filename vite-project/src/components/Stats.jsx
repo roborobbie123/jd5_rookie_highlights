@@ -5,9 +5,9 @@ export default function Stats({ week }) {
 
     return (
         <section id="stats" className="my-5">
-                <table className="w-full table-auto text-center">
+                <table className="w-full table-auto text-center border border-collapse">
                     <thead>
-                        <tr>
+                        <tr className="border">
                             <th>Pass Yds</th>
                             <th>Pass Tds</th>
                             <th>Int</th>
