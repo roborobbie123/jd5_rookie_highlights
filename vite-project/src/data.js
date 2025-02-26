@@ -3,7 +3,7 @@
 export const Data = [
     {
         week: '1: Bucs',
-        title: "Big run",
+        title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '184',
         pass_td: '0',
@@ -13,7 +13,7 @@ export const Data = [
     },
     {
         week: '2: Giants',
-        title: "Big run",
+        title: "Hail Mary",
         link: 'https://www.youtube.com/embed/cBOgsv-8wQE',
         pass_yds: '226',
         pass_td: '0',

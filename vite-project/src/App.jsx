@@ -5,13 +5,9 @@ import Stats from './components/Stats.jsx'
 import { Data } from './data.js'
 import Dropdown from './components/Dropdown.jsx'
 import Header from './components/Header.jsx'
-
-
-
-
+import WeekContextProvider from './WeekContextProvider.jsx'
 
 function App() {
-  const [week, setWeek] = useState(Data[0]);
 
   function handleChange(weekSelector) {
     for (let i = 0; i < Data.length; i++) {
@@ -22,13 +18,14 @@ function App() {
   }
 
   return (
-
-    <div className="rounded-2xl text-[#FFB612] font-mono">
-      <Header />
-      <Dropdown onChange={handleChange} />
-      <Stats week={week} />
-      <Clip week={week} />
-    </div>
+    <WeekContextProvider>
+      <div className="rounded-2xl text-[#FFB612] font-mono">
+        <Header />
+        <Dropdown/>
+        <Stats/>
+        <Clip/>
+      </div>
+    </WeekContextProvider>
 
   )
 }

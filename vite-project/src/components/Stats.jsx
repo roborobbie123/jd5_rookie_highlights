@@ -1,7 +1,9 @@
-import { Data } from '../data.js'
-import Clip from './Clip.jsx';
 
-export default function Stats({ week }) {
+import { useContext } from 'react';
+import { WeekContext } from '../WeekContextProvider.jsx';
+
+export default function Stats() {
+    const weekCtx = useContext(WeekContext);
 
     return (
         <section id="stats" className="my-5">
@@ -18,11 +20,11 @@ export default function Stats({ week }) {
                     </thead>
                     <tbody>
                         <tr>
-                            <td>{week.pass_yds}</td>
-                            <td>{week.pass_td}</td>
-                            <td>{week.int}</td>
-                            <td>{week.rush_yds}</td>
-                            <td>{week.rush_tds}</td>
+                            <td>{weekCtx.week.pass_yds}</td>
+                            <td>{weekCtx.week.pass_td}</td>
+                            <td>{weekCtx.week.int}</td>
+                            <td>{weekCtx.week.rush_yds}</td>
+                            <td>{weekCtx.week.rush_tds}</td>
                         </tr>
                     </tbody>
                 </table>
